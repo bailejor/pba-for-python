@@ -34,7 +34,7 @@ class Interval:
 
 
         # kill complex nums
-        assert not isinstance(left, np.complex) or not isinstance(right, np.complex), "Inputs must be real numbers"
+        assert not isinstance(left, np.complex128) or not isinstance(right, np.complex128), "Inputs must be real numbers"
 
         # assume vaccous if no inputs
         if left is None and right is None:
